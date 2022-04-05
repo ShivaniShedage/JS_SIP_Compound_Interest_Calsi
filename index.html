@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIP COMPOUND INTEREST CALCULATOR</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <h2>SIP COMPOUND INTEREST CALCULATOR</h2>
+        <div class="fields">
+            <label>Enter Price :</label>
+            <input type="text" placeholder="Enter price" id="price" /><br>
+        </div>
+        <div class="fields">
+            <label>Enter Rate :</label>
+            <input  type="text"  placeholder="Enter rate" id="rate"/><br>
+        </div>
+        <div class="fields">    
+            <label>Enter Time :</label>
+            <input type="number" placeholder="Enter time (Years)" id="time" /><br>
+        </div>
+        <button onclick="ci()" type="button">Calculate</button>
+        <div id="hidden"></div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
